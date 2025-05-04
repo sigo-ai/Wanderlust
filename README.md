@@ -48,6 +48,15 @@ Wanderlust/
 
 ---
 
+
+## 🖼️ Sneak Peek
+
+| Home Page                                 | Listing Detail                              | Create Listing                              |
+| ----------------------------------------- | ------------------------------------------- | ------------------------------------------- |
+| ![](https://your-image-link.com/home.png) | ![](https://your-image-link.com/detail.png) | ![](https://your-image-link.com/create.png) |
+
+---
+
 ## 📦 Dependencies
 
 | Package         | Purpose              |
