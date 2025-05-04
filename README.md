@@ -120,7 +120,7 @@ Access the app at: `http://localhost:3000`
 * 🧑‍💻 RESTful MVC architecture
 * 🔍 Search listings by title or location
 * 🗺️ Interactive location picker with Mapbox
-* ☁️ Upload multiple images via Cloudinary
+* ☁️ Upload images via Cloudinary
 * 🚫 User authorization & ownership checks
 * ✅ Flash messages for feedback (success/error)
 
