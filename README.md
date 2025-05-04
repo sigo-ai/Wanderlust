@@ -48,15 +48,6 @@ Wanderlust/
 
 ---
 
-
-## 🖼️ Sneak Peek
-
-| Home Page                                 | Listing Detail                              | Create Listing                              |
-| ----------------------------------------- | ------------------------------------------- | ------------------------------------------- |
-|https://ibb.co/GvxdBh51 | https://ibb.co/GvxdBh51 | https://ibb.co/GvxdBh51 |
-
----
-
 ## 📦 Dependencies
 
 | Package         | Purpose              |
