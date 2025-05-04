@@ -2,9 +2,10 @@
 
 const map = new maplibregl.Map({
     container: 'map',
-    style:
-        'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+    // style:
+    //     'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
     // style: 'https://demotiles.maplibre.org/style.json',
+    style:'https://api.maptiler.com/maps/streets-v2/?key=6aGDdHmRnVyqE0fk2H3w#1.0/0.00000/0.00000',
     center: list.geometry.coordinates,
     zoom: 10 ,
     attributionControl: false,
