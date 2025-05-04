@@ -129,7 +129,7 @@ Access the app at: `http://localhost:3000`
 ## 📬 Contact
 
 * 👨‍💻 **Author**: Aman ([@sigo-ai](https://github.com/sigo-ai))
-* 📫 **Email**: [your.email@example.com](mailto:sharmajiaman562@gmail.com)
+* 📫 **Email**: [sharmajiaman562@gmail.com](mailto:sharmajiaman562@gmail.com)
 * 🔗 **Website**: [https://wanderlust-nt0i.onrender.com](https://wanderlust-nt0i.onrender.com)
 
 ---
