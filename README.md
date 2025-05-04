@@ -12,9 +12,9 @@
 * 🔐 Secure user registration and login
 * 🏠 Add, edit, and delete property listings
 * 📍 Interactive map integration via Mapbox
-* 📸 Upload and manage multiple listing images
+* 📸 Upload and manage listing image
 * 💬 Flash messages for user feedback
-* 📱 Fully responsive across devices
+* 📱 Fully responsive webapp
 
 ---
 
