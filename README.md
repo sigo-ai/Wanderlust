@@ -1,5 +1,5 @@
 
-🌍✨ Wanderlust — Your Gateway to Dream Destinations
+#🌍✨ Wanderlust — Your Gateway to Dream Destinations
 
 **Wanderlust** is a beautifully crafted full-stack web application where wanderers find their stay and hosts share their spaces. Inspired by platforms like Airbnb, this project blends robust functionality with a delightful UI, offering a seamless experience from exploration to booking.
 
@@ -7,7 +7,7 @@ https://wanderlust-nt0i.onrender.com
 
 ---
 
-🔥 Highlights
+##🔥 Highlights
 
 * 🔐 **Secure Authentication** with Passport.js
 * 🏡 **Add & Manage Listings** with rich media and locations
@@ -18,7 +18,7 @@ https://wanderlust-nt0i.onrender.com
 
 ---
 
-⚙️ Tech Stack
+##⚙️ Tech Stack
 
 | Tech        | Purpose                   |
 | ----------- | ------------------------- |
