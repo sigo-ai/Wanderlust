@@ -1,116 +1,143 @@
 
-**#**🌍✨ Wanderlust — Your Gateway to Dream Destinations
+# 🧭 Wanderlust
 
-**Wanderlust** is a beautifully crafted full-stack web application where wanderers find their stay and hosts share their spaces. Inspired by platforms like Airbnb, this project blends robust functionality with a delightful UI, offering a seamless experience from exploration to booking.
+[🌐 Visit Website](https://wanderlust-nt0i.onrender.com)
 
-https://wanderlust-nt0i.onrender.com
-
----
-
-##🔥 Highlights
-
-* 🔐 **Secure Authentication** with Passport.js
-* 🏡 **Add & Manage Listings** with rich media and locations
-* 🗺️ **Map Integration** using Mapbox for geolocation
-* 🖼️ **Image Uploads** via Cloudinary + Multer
-* 🌐 **Responsive UI** built with EJS and custom CSS
-* ⚡ **Flash Messages & Validation** for smoother UX
+**Wanderlust** is a full-stack travel accommodation platform where users can explore and list vacation rentals. Built with Node.js, Express, and MongoDB, the app supports dynamic listing creation, interactive maps, image uploads, and secure user authentication—providing a smooth experience for both hosts and travelers.
 
 ---
 
-##⚙️ Tech Stack
+## 🔑 Key Functionalities
 
-| Tech        | Purpose                   |
-| ----------- | ------------------------- |
-| Node.js     | Backend runtime           |
-| Express.js  | Web framework             |
-| MongoDB     | NoSQL database            |
-| Mongoose    | MongoDB ODM               |
-| Passport.js | Authentication middleware |
-| Cloudinary  | Image hosting             |
-| Multer      | File handling middleware  |
-| Mapbox      | Interactive maps          |
-| EJS         | Server-side templating    |
+* 🔐 Secure user registration and login
+* 🏠 Add, edit, and delete property listings
+* 📍 Interactive map integration via Mapbox
+* 📸 Upload and manage multiple listing images
+* 💬 Flash messages for user feedback
+* 📱 Fully responsive across devices
 
 ---
 
-## 🖼️ Sneak Peek
+## 📁 Project Folder Structure
 
-| Home Page                                 | Listing Detail                              | Create Listing                              |
-| ----------------------------------------- | ------------------------------------------- | ------------------------------------------- |
-| ![](https://your-image-link.com/home.png) | ![](https://your-image-link.com/detail.png) | ![](https://your-image-link.com/create.png) |
+```
+Wanderlust/
+├── controllers/        # Route logic handlers
+├── init/               # MongoDB connection setup
+├── middleware.js       # Custom Express middleware
+├── cloudConfig.js      # Cloudinary image config
+├── models/             # Mongoose models
+├── public/             # Static assets (CSS, JS)
+├── routes/             # Auth, Listing, Review routes
+├── utils/              # Geocoding & data helpers
+├── views/              # EJS templates
+├── app.js              # Main application entry
+└── package.json
+```
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Tech Stack
 
-### 1. Clone the Repo
+* **Frontend**: EJS, HTML5, CSS3, JavaScript
+* **Backend**: Node.js, Express.js
+* **Database**: MongoDB + Mongoose
+* **Auth**: Passport.js, Express-Session
+* **File Hosting**: Cloudinary, Multer
+* **Mapping**: Mapbox API
+
+---
+
+## 📦 Dependencies
+
+| Package         | Purpose              |
+| --------------- | -------------------- |
+| `express`       | Backend routing      |
+| `mongoose`      | MongoDB ODM          |
+| `passport`      | Authentication       |
+| `multer`        | Image uploads        |
+| `cloudinary`    | Image hosting        |
+| `dotenv`        | Environment config   |
+| `mapbox`        | Geolocation and maps |
+| `ejs`           | Templating engine    |
+| `connect-flash` | Flash messaging      |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone and Install
 
 ```bash
 git clone https://github.com/sigo-ai/Wanderlust.git
 cd Wanderlust
-```
-
-### 2. Install Dependencies
-
-```bash
 npm install
 ```
 
-### 3. Environment Configuration
-
-Create a `.env` file and add:
+### 2. Setup `.env`
 
 ```env
-DB_URL=your_mongodb_url
-CLOUDINARY_CLOUD_NAME=your_name
-CLOUDINARY_API_KEY=your_key
+DB_URL=your_mongo_connection_string
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_secret
 SECRET=session_secret
 ```
 
-### 4. Run the App
+### 3. Run the App
 
 ```bash
 npm start
 ```
 
-Visit [localhost:3000](http://localhost:3000)
+Access the app at: `http://localhost:3000`
 
 ---
 
-## 🧠 Learning Goals
+## 📡 API Routes
 
-This project helped solidify understanding in:
+### Auth Routes
 
-* RESTful Routing
-* MVC Architecture
-* Middleware chaining
-* Session handling & authentication
-* Cloud-based file uploads
-* Real-world deployment practices
+* `GET /register` – Registration form
+* `POST /register` – Register a new user
+* `GET /login` – Login form
+* `POST /login` – Authenticate user
+* `GET /logout` – Logout user
 
----
+### Listing Routes
 
-## 🤝 Contributions
-
-Contributions are what make the open-source community such a wonderful place.
-If you have suggestions, feel free to fork the repo and submit a PR! 🙌
-
----
-
-## 📜 License
-
-[MIT](LICENSE)
+* `GET /listings` – View all listings
+* `GET /listings/new` – New listing form
+* `POST /listings` – Create listing
+* `GET /listings/:id` – View single listing
+* `PUT /listings/:id` – Update listing
+* `DELETE /listings/:id` – Delete listing
 
 ---
 
-## 📬 Connect With Me
+## ✨ Features
 
-* ✉️ Email: [your-email@example.com](mailto:your-email@example.com)
-* 🔗 LinkedIn: [YourLinkedIn](https://linkedin.com/in/yourprofile)
-* 🧑‍💻 GitHub: [sigo-ai](https://github.com/sigo-ai)
+* 🧑‍💻 RESTful MVC architecture
+* 🔍 Search listings by title or location
+* 🗺️ Interactive location picker with Mapbox
+* ☁️ Upload multiple images via Cloudinary
+* 🚫 User authorization & ownership checks
+* ✅ Flash messages for feedback (success/error)
 
 ---
 
-Let me know if you'd like me to generate a deployment badge, a walkthrough video section, or a dark-themed banner for your project!
+## 📬 Contact
+
+* 👨‍💻 **Author**: Aman ([@sigo-ai](https://github.com/sigo-ai))
+* 📫 **Email**: [your.email@example.com](mailto:sharmajiaman562@gmail.com)
+* 🔗 **Website**: [https://wanderlust-nt0i.onrender.com](https://wanderlust-nt0i.onrender.com)
+
+---
+
+## 🙏 Thank You!
+
+Thank you for checking out Wanderlust! Feel free to leave a ⭐ on the [repository](https://github.com/sigo-ai/Wanderlust) if you found it helpful or inspiring.
+
+---
+
+Would you like me to generate matching banner images or GitHub badges for this README?
